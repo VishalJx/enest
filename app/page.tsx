@@ -1,3 +1,5 @@
+"use server"
+
 import DetailCard from "@/components/DetailCard";
 import CourseOffering from "@/components/pages/CourseOffering";
 import PeopleAlsoBought from "@/components/pages/PeopleAlsoBought";
