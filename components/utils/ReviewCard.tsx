@@ -15,7 +15,7 @@ const ReviewCard = () => {
             <div className=" flex flex-col gap-1">
                 <h1 className="text-gray-800 font-bold">John Doe</h1>
                 <span className="flex items-center gap-3">
-                    <StarRating size={"xs"}/>
+                    <StarRating/>
                     <p className="text-xs font-medium pb-3">(4 Months ago)</p>
                 </span>
             </div>

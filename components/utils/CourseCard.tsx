@@ -29,7 +29,7 @@ const CourseCard = () => {
                 <div className="flex items-center justify-between">
                     <span>
                         <p className="font-bold mb-2">&#x20B9;499</p>
-                        <StarRating size={"xs"}/>
+                        <StarRating />
                     </span>
                     <span className="bg-yellow-500 text-xs font-bold px-2 py-1 rounded-md">Bestseller</span>
                 </div>
