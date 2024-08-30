@@ -23,7 +23,7 @@ const CourseCard = () => {
                 className=""
             />
             <div className="py-3 px-4 flex flex-col gap-2">
-                <h3 className="text-md font-bold">Lorem, ipsum dolor.</h3>
+                <h3 className="font-bold">Lorem, ipsum dolor.</h3>
                 <p className="text-sm font-medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias qui non modi ipsa fugiat blanditiis!</p>
                 <p className="text-xs text-gray-400">Dr. Chatur Ramlingam</p>
                 <div className="flex items-center justify-between">

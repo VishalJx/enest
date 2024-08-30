@@ -16,7 +16,7 @@ const Navbar = () => {
     <section>
         <nav className="bg-white px-1 py-5 flex gap-12 items-center justify-center">
             <Image 
-                className="logo mr-5"
+                className="mr-5"
                 src="/assets/navlogo.png"
                 alt="logo"
                 width={100}

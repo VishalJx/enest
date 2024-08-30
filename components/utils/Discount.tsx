@@ -1,7 +1,10 @@
 import { RiDiscountPercentFill } from "react-icons/ri";
 
+interface DiscountProps {
+  discount: number;
+}
 
-const Discount = ({discount}) => {
+const Discount: React.FC<DiscountProps> = ({ discount }) => {
   return (
     <div className="flex items-center gap-2 px-1 pr-4 py-[0.4rem] text-xs rounded-full bg-greenBadge text-white">
         <RiDiscountPercentFill  className="text-[1.1rem] " />
