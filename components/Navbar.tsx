@@ -28,7 +28,6 @@ const Navbar = () => {
               key={index} 
               className="flex items-center gap-2">
                 <Image 
-                  className=""
                   src={icon.src}
                   alt={icon.alt}
                   width={15}
