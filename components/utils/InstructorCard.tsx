@@ -8,7 +8,7 @@ const InstructorCard = () => {
         <div className="w-2/3 flex flex-col gap-1">
             <h3 className="text-lg text-tertiary font-semibold">Chatur Ramlingam</h3>
             <p className="w-[70%] text-sm font-medium mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi quisquam perspiciatis nulla.</p>
-            <StarRating size={"sm"}/>
+            <StarRating/>
             <h4 className="text-[0.95rem] text-primary font-bold mt-4 ">About me</h4>
             <p className="text-sm font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam a repudiandae assumenda, repellat quo quis vitae! Commodi nostrum dolorem distinctio itaque, cumque in fugit, reiciendis iusto soluta saepe, architecto at?</p>
             <span className="text-tertiary text-xs font-bold">Show More</span>

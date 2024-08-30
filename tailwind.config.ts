@@ -13,10 +13,6 @@ const config: Config = {
         secondary:"#4C286A",
         tertiary:"#1A73E9"
       },
-      fontFamily: {
-        primaryFont:'Poppins,sans-serif',
-        secondaryFont:'Noto Sans,sans-serif'
-      },
       backgroundColor:{
         primary:"#7A1DC5",
         secondary:"#4C286A",

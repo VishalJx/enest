@@ -4,32 +4,30 @@ const WhatYouWillLearn = () => {
 
     const whatYouWillLearn = [
         {
-            description: 'Learn how to build a full stack application with React and Node.js',
-
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            description: 'Understand how to build a RESTful API with Node.js and Express',
-
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            description: 'Learn how to use MongoDB and Mongoose to create and manage a database',
-
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            description: 'Understand how to use React Router to create a single page application',
-
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            description: 'Learn how to use Redux to manage the state of your application',
-
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            description: 'Understand how to use Redux Thunk to make asynchronous requests',
-
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            description: 'Learn how to use React Hooks to manage state in functional components',
-        }
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+
     ]
 
   return (
@@ -38,7 +36,7 @@ const WhatYouWillLearn = () => {
             whatYouWillLearn.map((item, index) => (
                 <div key={index} className="flex items-center gap-2">
                     <IoMdCheckmarkCircleOutline className="text-green-600 text-xl"/>
-                    <p className="text-sm font-medium text-gray-700">{item.description}</p>
+                    <p className="text-xs font-medium text-gray-700">{item.description}</p>
                 </div>
             ))
         }
