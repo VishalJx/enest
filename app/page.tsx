@@ -8,7 +8,7 @@ import InstructorCard from "@/components/utils/InstructorCard";
 import TopCompanies from "@/components/utils/TopCompanies";
 import WhatYouWillLearn from "@/components/utils/WhatYouWillLearn";
 
-export default function Home() {
+export default async function Home() {
     return (
         <main className="w-full flex flex-col items-center gap-6">
             <DetailCard />
