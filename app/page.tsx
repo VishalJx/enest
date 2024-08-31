@@ -1,9 +1,10 @@
-"use server"
+"use client"
 
 import DetailCard from "@/components/DetailCard";
 import CourseOffering from "@/components/pages/CourseOffering";
 import PeopleAlsoBought from "@/components/pages/PeopleAlsoBought";
 import Reviews from "@/components/pages/Reviews";
+import Syllabus from "@/components/pages/Syllabus";
 import InstructorCard from "@/components/utils/InstructorCard";
 import TopCompanies from "@/components/utils/TopCompanies";
 import WhatYouWillLearn from "@/components/utils/WhatYouWillLearn";
@@ -28,8 +29,9 @@ export default async function Home() {
                 <WhatYouWillLearn />
             </section>
             
-            <section className="w-full flex flex-col items-center">
+            <section className="w-full flex flex-col items-center mb-8">
                 <h1 className="text-xl text-primary font-bold text-center mb-6">Syllabus</h1>
+                <Syllabus/>
             </section>
 
             <section className="w-full flex flex-col items-center mb-8">
